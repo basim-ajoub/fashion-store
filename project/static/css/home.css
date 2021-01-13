@@ -1,0 +1,435 @@
+
+
+/* START  */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.main{
+    width: 100%;
+    height: fit-content;
+    background-color:rgb(241, 145, 161);
+}
+
+
+/* START HEADER */
+
+.head{
+
+    width: 100%;
+    height: 577px;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    background-color: rgb(241, 145, 161);
+    background-image: url(../images/batoulhead.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+}
+.websiteheader{
+    width: 50%;
+    height: max-content;
+
+    margin-left: auto;
+    margin-right: 8%;
+    padding-top: 14%;
+}
+
+
+.gender{
+    margin-left: 65%;
+    display: flex;
+    width: 50%;
+    height: max-content;
+    margin-top: 3%;
+
+}
+
+.women , .men{
+
+    width: 25%;
+    height:min-content;
+    border: 1px solid black;
+    text-align: center;
+  font-family: Georgia, Times, "Times New Roman", serif;
+     margin: 0.1%;
+
+
+}
+.women{
+    background-color: rgb(241, 145, 161);
+
+}
+h6{
+margin: 10%;
+font-size: 70%;
+}
+.gender a:hover{
+
+
+    font-family: Georgia, Times, "Times New Roman", serif;
+
+    transition: 0.9s;
+}
+.batoul{
+
+width: 100%;
+height: max-content;
+
+}
+
+.batoul h3{
+
+    color:rgb(218, 119, 135);
+    text-shadow:rgb(51, 51, 51) 0px 0px 5px, rgb(51, 51, 51) 0px 0px 10px, rgb(51, 51, 51) 0px 0px 15px, #000000 0px 0px 20px, #070707 0px 0px 30px, #020202 0px 0px 40px, #0c0c0c 0px 0px 50px, #1b1a1b 0px 0px 75px, -10px -1px 0px rgba(238, 199, 199, 0.33);
+    font-family: Georgia, Times, "Times New Roman", serif;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 40.5%;
+    font-size: 170%;
+    width: 75%;
+
+
+}
+/*END HEADER*/
+
+
+
+/* START MEDIUM */
+.medium{
+background-color: rgb(241, 145, 161);
+width: 100%;
+height: fit-content;
+margin-top: 0%;
+display: flex;
+padding-top: 0%;
+}
+
+    /* START SLID */
+    .slid{
+
+
+         height: 100%;
+         background-color:  rgb(241, 145, 161);
+         width: 25%;
+         margin-left: auto;
+
+
+    }
+    .social{
+        margin-left: auto;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .soc{
+        text-align: right;
+         width: 28%;
+         height: 30%;
+        padding: 3%;
+        margin-left: auto;
+        margin-bottom: 1%;
+
+     }
+    .social img{
+          margin-top: 4%;
+          margin-right: 15%;
+          width: 70%;
+          height: 80%;
+
+    }
+    .soc:hover{
+          width: 28%;
+          border: 2px solid rgba(7, 7, 7, 0.815);
+          border-radius: 40%;
+
+    }
+
+    /*END SLID*/
+
+
+    /* START CONTENT */
+    .content{
+        background-color:  rgb(241, 145, 161);
+        width: 75%;
+        height: 100%;
+
+
+    }
+
+    .services{
+        width: 90%;
+        height: fit-content;
+
+
+
+    }
+    .serv{
+        margin-top: 2%;
+        float: left;
+        width: 50%;
+        height: fit-content;
+
+       margin-top: 0.5%;
+    }
+    .image{
+        width: 65%;
+        height: 65%;
+        margin-left: 10%;
+
+        margin-bottom: 0%;
+    }
+
+    .image img{
+        margin-left: 50%;
+        width: 35%;
+        height: 100%;
+
+    }
+
+    .discriptions{
+
+        width: 100%;
+        height: 40%;
+        margin-left: 7%;
+        text-align: center;
+
+    }
+    .discriptions h4{
+        font-size: 90%;
+          font-family: Georgia, Times, "Times New Roman", serif;
+        width: 95%;
+    }
+    .one img{
+
+        height: 140%;
+
+
+    }
+
+    .content a:hover{
+        color:rgb(218, 119, 135);
+        text-shadow:rgb(51, 51, 51) 0px 0px 5px, rgb(51, 51, 51) 0px 0px 10px, rgb(51, 51, 51) 0px 0px 15px, #000000 0px 0px 20px, #070707 0px 0px 30px, #020202 0px 0px 40px, #0c0c0c 0px 0px 50px, #1b1a1b 0px 0px 75px, -10px -1px 0px rgba(238, 199, 199, 0.33);
+         font-family: Georgia, Times, "Times New Roman", serif;
+
+         transition: 0.9s;
+    }
+
+    /*END CONTENT*/
+
+
+/* END MEDIuM */
+
+/* START FOOTER*/
+.foot{
+
+    height: fit-content;
+    width: 100%;
+
+    background-color: rgba(7, 7, 7, 0.815);
+
+
+
+}
+.information{
+   word-spacing: 70%;
+    text-align: center;
+    color: blanchedalmond;
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(56, 1, 44, 0.548);
+    font-size: 16px;
+}
+
+
+/*END FOOTER*/
+
+
+
+/* END */
+
+
+/*screen setting*/
+@media screen and (max-width:1120px){
+
+    .head{
+        height: 468px;
+    }
+}
+
+@media screen and (max-width:900px){
+.head{
+    height:372px;
+}
+.gender h6{
+    font-size:50% ;
+    }
+    .information {
+        font-size: 14px;
+     }
+}
+
+@media screen and (max-width:735px){
+
+.head{
+    height: 300px;
+}
+.batoul h3{
+    font-size: 120%;
+}
+.gender h6{
+    font-size:43% ;
+    font-weight: bold;
+    }
+.information {
+        font-size: 12px;
+     }
+     .discriptions h4{
+        font-size: 80%;
+
+
+    }
+}
+@media screen and (max-width:525px){
+
+    .head{
+        height: 200px;
+    }
+    .batoul h3{
+        font-size: 90%;
+    }
+    .gender h6{
+        font-size: 18% ;
+        }
+        .women , .men{
+            width: 30%;
+        }
+        .information {
+            font-size: 10px;
+         }
+         .discriptions h4{
+            font-size: 70%;
+        }
+}
+
+@media screen and (max-width:410px){
+
+        .head{
+            height: 150px;
+        }
+        .batoul h3{
+            font-size: 70%;
+        }
+        .gender{
+            margin-top: 2%;
+            margin-left: 60%;
+        }
+        .gender h6{
+            font-size:1% ;
+            }
+            .women , .men{
+                width: 35%;
+            }
+            .information {
+                font-size: 8px;
+             }
+             .discriptions h4{
+                font-size: 70%;
+
+
+            }
+        }
+@media screen and (max-width:315px){
+
+            .head{
+                height: 100px;
+            }
+            .batoul h3{
+                font-size: 50%;
+            }
+            .gender h6{
+                font-size: 5px;
+            }
+            .women , .men{
+                width: 40%;
+            }
+            .gender{
+                margin-left: 55%;
+                margin-top: 2%;
+            }
+            .discriptions h4{
+                font-size: 50%;
+
+
+            }
+            }
+@media screen and (max-width:230px){
+
+                .head{
+                    height: 90px;
+                }
+                .batoul h3{
+                    font-size: 30%;
+                }
+                .gender h6{
+                    font-size: 5px;
+                }
+                .women , .men{
+                    width: 45%;
+                }
+                .information {
+                    font-size: 6px;
+                 }
+                 .discriptions h4{
+                    font-size: 40%;
+
+
+                }
+            }
+
+ @media screen and (max-width:180px){
+
+   .head{
+              height: 60px;
+        }
+    .batoul h3{
+              font-size: 5%;
+            }
+    .gender h6{
+                font-size: 5px;
+                font-weight: bold;
+            }
+            .discriptions h4{
+                font-size: 20%;
+
+
+            }
+}
+@media screen and (min-width:150px) and (max-width:172px){
+
+    .head{
+               height: 50px;
+         }
+     .batoul h3{
+               font-size: 5px;
+             }
+     .gender h6{
+                 font-size: 3.5px;
+                 font-weight: bold;
+             }
+ }
+@media screen and (min-height:1085px)
+{
+
+    .head{
+        height: 400px;
+    }
+}
